@@ -1,0 +1,9 @@
+{
+
+	"files.exclude": {},
+	"files.watcherExclude": {},
+	"search.exclude": {},
+
+	"chat.useAgentSkills": true,
+
+}

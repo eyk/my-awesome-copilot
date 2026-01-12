@@ -1,0 +1,14 @@
+{
+	"recommendations": [
+		"github.copilot",
+		"github.copilot-chat",
+		"ms-vscode.vscode-speech",
+		"pkief.material-icon-theme",
+		"yutengjing.open-in-external-app",
+		"eyk.vscode-markdown-image-paste-pro",
+		"gruntfuggly.todo-tree",
+	],
+	"unwantedRecommendations": [
+
+	]
+}
