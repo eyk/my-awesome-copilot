@@ -58,20 +58,20 @@ Executable code (Python/Bash/etc.) that can be run directly to perform specific 
 
 **Appropriate for:** Python scripts, shell scripts, or any executable code that performs automation, data processing, or specific operations.
 
-**Note:** Scripts may be executed without loading into context, but can still be read by Claude for patching or environment adjustments.
+**Note:** Scripts may be executed without loading into context, but can still be read by the agent for patching or environment adjustments.
 
 ### references/
-Documentation and reference material intended to be loaded into context to inform Claude's process and thinking.
+Documentation and reference material intended to be loaded into context to inform the agent's process and thinking.
 
 **Examples from other skills:**
 - Product management: `communication.md`, `context_building.md` - detailed workflow guides
 - BigQuery: API reference documentation and query examples
 - Finance: Schema documentation, company policies
 
-**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that Claude should reference while working.
+**Appropriate for:** In-depth documentation, API references, database schemas, comprehensive guides, or any detailed information that the agent should reference while working.
 
 ### assets/
-Files not intended to be loaded into context, but rather used within the output Claude produces.
+Files not intended to be loaded into context, but rather used within the output the agent produces.
 
 **Examples from other skills:**
 - Brand styling: PowerPoint template files (.pptx), logo files
@@ -87,7 +87,7 @@ Files not intended to be loaded into context, but rather used within the output 
 Most skills don't need all three resource types. After determining your skill's needs:
 
 - **If you don't need scripts:** Delete the `scripts/` directory
-- **If you don't need references:** Delete the `references/` directory  
+- **If you don't need references:** Delete the `references/` directory
 - **If you don't need assets:** Delete the `assets/` directory
 
 Only keep the resource directories that your skill actually uses. An empty or unnecessary directory adds clutter without value.
